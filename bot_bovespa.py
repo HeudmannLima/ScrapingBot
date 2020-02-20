@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from unicodedata import normalize
 
 driver = webdriver.Chrome()
-wait_for = webdriver.support.ui.WebDriverWait(driver, 10)
+wait_for = WebDriverWait(driver, 10)
 url = 'http://www.bmfbovespa.com.br/pt_br/produtos/' \
       'listados-a-vista-e-derivativos/renda-variavel/empresas-listadas.htm'
 
